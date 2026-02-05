@@ -2,6 +2,7 @@
 import React from 'react';
 import AlertBar from './components/AlertBar';
 import Headline from './components/Headline';
+import ProductShowcase from './components/ProductShowcase';
 import PriceAnchor from './components/PriceAnchor';
 import BenefitsList from './components/BenefitsList';
 import CTASection from './components/CTASection';
@@ -17,7 +18,8 @@ function App() {
       {/* 2. HEADLINE & 3. MENSAGEM DE CONTRASTE */}
       <Headline />
       
-      {/* 4. PROVA VISUAL (removida) */}
+      {/* 4. PROVA VISUAL */}
+      <ProductShowcase />
       
       {/* 5. ANCORAGEM DE PREÇO */}
       <PriceAnchor />
