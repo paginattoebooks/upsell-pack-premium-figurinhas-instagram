@@ -16,7 +16,7 @@ const Headline: React.FC = () => {
           Com o <span className="text-gold">Pack Premium</span>, você garante acesso vitalício e desbloqueia todos os bônus agora.
         </p>
         <div className="mt-4 flex justify-center">
-          <img src="foto.png" alt="Pack Premium - Foto" className="w-full max-w-sm rounded-lg shadow-md object-cover" />
+          <img src="foto.png" alt="foto.png" className="w-full max-w-sm rounded-lg shadow-md object-cover" />
         </div>
       </div>
     </div>
