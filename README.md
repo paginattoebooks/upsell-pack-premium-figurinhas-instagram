@@ -49,3 +49,7 @@ Troubleshooting:
 - For GitHub Pages SPA routing, use a 404 redirect to `index.html` or use `hash` routing.
 
 If you want, I can add the `gh-pages` devDependency and scripts for one-click `npm run deploy` — me diga se devo adicionar isso agora.
+
+---
+
+Site publicado: https://paginattoebooks.github.io/upsell-pack-premium-figurinhas-instagram/
