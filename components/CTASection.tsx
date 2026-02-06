@@ -2,16 +2,9 @@ import React from "react";
 import { ChevronRight } from "lucide-react";
 
 const CHECKOUT_PREMIUM = "https://somasoundsolutions.mycartpanda.com/checkout/206809489:1";
-const CHECKOUT_BASICO = "https://somasoundsolutions.mycartpanda.com/checkout/206809457:1";
+const CHECKOUT_BASICO = "https://figurinhas-downsell.vercel.app/";
 
 const CTASection: React.FC = () => {
-  const handleDecline = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    const ok = confirm(
-      "Você tem certeza? Essa oferta de R$ 10,99 nunca mais aparecerá e você ficará limitado a 3 meses de acesso."
-    );
-    if (!ok) e.preventDefault(); // cancela o clique se a pessoa desistir
-  };
-
   return (
     <div className="px-6 pb-16 flex flex-col items-center space-y-8 max-w-md mx-auto">
       <a
@@ -28,7 +21,6 @@ const CTASection: React.FC = () => {
         href={CHECKOUT_BASICO}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={handleDecline}
         className="bg-gray-700 hover:bg-gray-600 text-white font-bold text-sm py-3 px-6 rounded-md transition-colors text-center"
       >
         Não, obrigado! Quero apenas o acesso básico de 3 meses.
