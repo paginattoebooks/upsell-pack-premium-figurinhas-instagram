@@ -16,7 +16,7 @@ const PriceAnchor: React.FC = () => {
         </span>
         <h2 className="text-6xl md:text-7xl font-black text-white">
           <span className="text-3xl align-top mr-1">R$</span>
-          10,99
+          19,90
         </h2>
       </div>
       
